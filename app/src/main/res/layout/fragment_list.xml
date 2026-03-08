@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_green"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listas"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textColor="@color/primary_green"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lista" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Espacios que muestran colecciones de elementos organizados de forma vertical u horizontal, permitiendo al usuario desplazarse para ver todo el contenido. Ideales para mostrar contactos, mensajes, productos o cualquier conjunto de información similar."
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="A continuación se muestran un ejemplo de lista:"
+        android:textColor="@color/primary_green"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/simpleListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"/>
+</LinearLayout>
